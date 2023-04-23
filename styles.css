@@ -15,10 +15,14 @@ body {
 =*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*= 
 */
 body > .container {
-  height: 100vh;
+  /* changed height value to % from vh */
+  height: 100%;
 }
 body > .logo {
-  position: absolute;
+  /* change display property to flex */
+  display: flex;
+  align-items: center;
+  /* position: absolute; */
   top: 3%;
   left: 1%;
 }
@@ -32,6 +36,9 @@ body > .logo > h1 {
 body > .container > .game {
   display: flex;
   justify-content: space-evenly;
+  /* added two lines below */
+  flex-direction: column; 
+  align-items: center;
 }
 body > .container > .game > .title {
   font-size: 70px;
@@ -57,6 +64,8 @@ body > .container > .game > .type {
   font-weight: 600;
 }
 body > .container > .game > .textbox {
+  /* added one line below to align the text */
+  text-align: center;
   border: 2px solid #7444ff;
   border-radius: 4px;
   height: 40px;
