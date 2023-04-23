@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html,
+body {
+  background: #121316;
+  color: white;
+  -webkit-font-smoothing: antialiased;
+  font-family: 'Inter', sans-serif;
+}
+/*
+=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=
+      Main page
+=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*= 
+*/
+body > .container {
+  height: 100vh;
+}
+body > .logo {
+  position: absolute;
+  top: 3%;
+  left: 1%;
+}
+body > .logo > img {
+  width: 60px;
+  padding: 10px;
+}
+body > .logo > h1 {
+  font-size: 40px;
+}
+body > .container > .game {
+  display: flex;
+  justify-content: space-evenly;
+}
+body > .container > .game > .title {
+  font-size: 70px;
+  font-family: 'Lobster', cursive;
+  padding: 30px;
+  color: #7444ff;
+}
+body > .container > .game > .description {
+  font-size: 25px;
+  padding-bottom: 30px;
+  font-weight: 600;
+}
+body > .container > .game > .word {
+  font-size: 40px;
+  padding: 30px;
+  color: #9580ff;
+  font-weight: 700;
+}
+body > .container > .game > .type {
+  font-size: 30px;
+  padding: 20px;
+  padding-top: 30px;
+  font-weight: 600;
+}
+body > .container > .game > .textbox {
+  border: 2px solid #7444ff;
+  border-radius: 4px;
+  height: 40px;
+  margin: 0px 10px 30px 10px;
+  font-size: 25px;
+  font-weight: 600;
+  background: transparent;
+  color: #ff66c4;
+}
+body > .container > .game > .rem-guess {
+  font-size: 20px;
+  padding: 10px;
+}
+body > .container > .game > .btn {
+  width: 150px;
+  height: 60px;
+  font-size: 20px;
+  margin: 20px;
+  border-radius: 30px;
+  border: none;
+  background: #ff66c4;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+body > .container > .game > .btn:hover {
+  background: #d748a0;
+}
