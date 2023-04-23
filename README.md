@@ -1,4 +1,4 @@
-# 🚧 Challenge-TRINITY-2023
+# 🚧 TRINITY-2023-Challenge
 A code debugging challenge organised by RSCOE ACM
 
 ## 🛠️ Transform Your Webpage
