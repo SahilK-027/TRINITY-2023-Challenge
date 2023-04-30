@@ -28,12 +28,14 @@
       referrerpolicy="no-referrer"
     />
     <link rel="shortcut icon" href="pink-trinity-logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="styles.css">
+    
     <title>Guess The Word</title>
   </head>
   <body>
     <div class="logo">
       <img src="logo.png" alt="logo" />
-      <h1>TRINITY</h1>
+      <h1 id="k">TRINITY</h1>
     </div>
     <div class="container">
       <div class="game">
@@ -52,15 +54,19 @@
           The word, which, etymologically means something like 'the tripleness'.
         </p>
         <p class="word">• • i • i • •</p>
-        <span class="type">Type the word:</span>
-        <input class="textbox" type="text" name="word" id="word" />
-        <p class="rem-guess">
+        <span class="typ">Type the word:</span>
+         <input class="textbox" type="text" name="word" id="word" >
+         <p class="rem-guess">
           You have
           <span id="num">3</span>
           guesses remaining.
         </p>
-        <input class="btn" type="button" value="Guess!" onclick="clickHandler()"/>
+        <input class="btn" type="button" value="Guess!" onclick="clickHandler()">
+        
       </div>
     </div>
+    <script src="script.js"></script>
   </body>
+  
 </html>
+
