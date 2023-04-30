@@ -2,8 +2,9 @@
   margin: 0;
   padding: 0;
 }
-html,
-body {
+
+body 
+{
   background: #121316;
   color: white;
   -webkit-font-smoothing: antialiased;
@@ -19,58 +20,70 @@ body > .container {
 }
 body > .logo {
   position: absolute;
+  display: flex;
   top: 3%;
   left: 1%;
 }
 body > .logo > img {
-  width: 60px;
-  padding: 10px;
+  width: 48px;
+
 }
 body > .logo > h1 {
-  font-size: 40px;
+  font-size: 28px;
+  padding-top: 6px;
 }
 body > .container > .game {
   display: flex;
   justify-content: space-evenly;
 }
 body > .container > .game > .title {
+  position: absolute;
+  display: block;
   font-size: 70px;
   font-family: 'Lobster', cursive;
-  padding: 30px;
+  padding: 100px;
   color: #7444ff;
 }
 body > .container > .game > .description {
+  position: absolute;
   font-size: 25px;
-  padding-bottom: 30px;
+  padding-top: 200px;
   font-weight: 600;
 }
 body > .container > .game > .word {
+  position: absolute;
   font-size: 40px;
-  padding: 30px;
+  padding: 250px;
   color: #9580ff;
   font-weight: 700;
 }
-body > .container > .game > .type {
+body > .container > .game > .typ{
+  position: absolute;
   font-size: 30px;
   padding: 20px;
-  padding-top: 30px;
+  padding-top: 300px;
   font-weight: 600;
 }
 body > .container > .game > .textbox {
+  position: absolute;
   border: 2px solid #7444ff;
   border-radius: 4px;
   height: 40px;
   margin: 0px 10px 30px 10px;
+  top: 350px;
   font-size: 25px;
   font-weight: 600;
   background: transparent;
   color: #ff66c4;
+  
 }
 body > .container > .game > .rem-guess {
+  
   font-size: 20px;
-  padding: 10px;
+  padding: 400px;
 }
 body > .container > .game > .btn {
+  position: absolute;
   width: 150px;
   height: 60px;
   font-size: 20px;
@@ -82,7 +95,9 @@ body > .container > .game > .btn {
   font-weight: 600;
   cursor: pointer;
   transition: all 0.3s ease;
+  bottom: 10%;
 }
-body > .container > .game > .btn:hover {
+body > .container > .game > .btn:hover 
+{
   background: #d748a0;
 }
