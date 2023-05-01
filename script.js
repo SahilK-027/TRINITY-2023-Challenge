@@ -13,12 +13,16 @@ console.log(
 
 let originalWord = "trinity";
 let guessRemaining = 3;
+let num = document.getElementById('num');
 
 function clickHandler(){
     if(guessRemaining > 0){
         guessRemaining--;
+        // used innerHTML to decrement the remaining guesses value 
+        num.innerHTML--;
         let guessedWord = document.querySelector("#word").value;
-        if(guessedWord == originalWord){
+        // used .toLowerCase() and trim() function
+        if(guessedWord.toLowerCase().trim() == originalWord){
             window.alert("🚀 You Win !!! 🎉");
         }
         else{
